@@ -9,7 +9,7 @@
 	
 
 	
-		$register_statement = $pdo->prepare("UPDATE  `xxunbemerktxx`.`user_users` SET  `beta` =  '1' WHERE  `user_users`.`id` = :id;");
+		$register_statement = $pdo->prepare("UPDATE  `kompetenzwerke`.`user_users` SET  `beta` =  '1' WHERE  `user_users`.`id` = :id;");
 		
 	
 		$register_statement->bindParam("id", $id);
