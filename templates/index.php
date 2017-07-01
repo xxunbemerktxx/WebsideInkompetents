@@ -60,9 +60,17 @@ if($loggedin_tester == "1") {
 		<img class="forum_img" hight="100px" weight="100px" src="/assets/img/yt.png" /> Erstellung des Servers Playlist:<br>
         
      	</li>
-	  <li class="list-group-item">
+	  	<li class="list-group-item">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL4eFbT-Uv_-mlTE3jDBHLY4-NyGAVDvMa" frameborder="0" allowfullscreen></iframe>
-      </li>
+     	</li>
+      	<li class="list-group-item">
+        	<img class="forum_img" src="" />
+        	Joine noch Heute unseren Discord Server!	
+      	</li>
+      	<li class="list-group-item">
+        		<iframe src="https://discordapp.com/widget?id=329628824889327617&theme=bright" width="350" height="500" allowtransparency="true" frameborder="0">
+			 </iframe>
+      	</li>
    </ul>
   </div>
 </div>
