@@ -127,37 +127,8 @@ if($loggedin == "true") {
 				<input type="submit" class="btn btn-outline-primary" value="BETA MODUS AKTIVIEREN" />
 			</div>
 		</form>
-	<?php }}?>
-        <form class="col-md-6 offset-md-3" method="post" action="/?p=logout">
-<!--			<div class="form-group">
-				<label>Deine ID:</label>
-				<input type="text" class="form-control" name="id" required value="<?php echo($id); ?>">
-			</div>
-			<div class="form-group">
-				<label>Bitte Schreibe ja rein:</label>
-				<input type="text" class="form-control" name="ja" required value="nein">
-			</div> -->
-			<div class="form-group">
-
-				<label>Logout:<br></label>
-				<input type="submit" class="btn btn-outline-primary" value="Logout" />
-			</div>
-		</form>
-    </ul>
-  </div>
-</div>	
-	
-	
-	
-	
-	
-	
-	
-	
-	<?php
-} } else {
-?>
-<?php if($usergroup == "Builder") { ?>
+	<?php } else {?>
+	<?php if($usergroup == "Builder") { ?>
         <form class="col-md-6 offset-md-3" method="post" action="/?p=betaon13526832vmgdybetaistgeilshggqhjd">
 <!--			<div class="form-group">
 				<label>Deine ID:</label>
@@ -173,7 +144,7 @@ if($loggedin == "true") {
 				<input type="submit" class="btn btn-outline-primary" value="BETA MODUS AKTIVIEREN" />
 			</div>
 		</form>
-	<?php }}?>
+	<?php }}}?>
         <form class="col-md-6 offset-md-3" method="post" action="/?p=logout">
 <!--			<div class="form-group">
 				<label>Deine ID:</label>
@@ -200,8 +171,15 @@ if($loggedin == "true") {
 	
 	
 	
+
+	
+	
+	
+	
+	
+	
 	<?php
-} } else {
+} else {
 ?>
 <div class="card">
   <div class="card-header">
