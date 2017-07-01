@@ -94,7 +94,7 @@ if($loggedin == "true") {
         <img class="forum_img" src="" />
         Beta Zugang: INAKTIV 
 	</li>
-	<?php if($usergroup == "owner") { ?>
+	<?php if($usergroup == "webowner") { ?>
         <form class="col-md-6 offset-md-3" method="post" action="/?p=betaon13526832vmgdybetaistgeilshggqhjd">
 <!--			<div class="form-group">
 				<label>Deine ID:</label>
@@ -179,7 +179,7 @@ if($loggedin == "true") {
 	
 	
 	<?php
-} else {
+	}} else {
 ?>
 <div class="card">
   <div class="card-header">
